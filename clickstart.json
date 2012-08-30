@@ -17,7 +17,7 @@
     ],
     "build-with-jenkins": {
         "template": {
-            "type": "maven",
+            "type": "https://s3.amazonaws.com/cloudbees-downloads/clickstart/sample_jenkins_template.xml",
             "options": {
             }
         }
